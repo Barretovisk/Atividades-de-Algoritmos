@@ -1,18 +1,18 @@
 #include <stdio.h>
 
- int dobro(int n1){
-      return n1 * 2;
+ int soma(int n1, int n2){
+      return n1 + n2;
  }
 
 int main(){
   
-    int a, b = 0;
+    int a, b, s = 0;
     
-    scanf("%d", &a);
+    scanf("%d %d", &a, &b);
     
-    b = dobro(a);
+   s = soma(a,b);
     
-    printf("%d", b);
+    printf("%d", s);
     
     return 0;
 }
